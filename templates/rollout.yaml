@@ -7,6 +7,7 @@ spec:
   strategy:
     canary:
       maxSurge: 100%
+      maxUnavailable: 5%
       steps:
       - setWeight: 20
       - pause: {duration: 20}

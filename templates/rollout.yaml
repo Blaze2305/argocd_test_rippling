@@ -22,7 +22,7 @@ spec:
       labels:
         app: rollouts-demo
     spec:
-      restartPolicy: always
+      restartPolicy: Always
       containers:
       - name: rollouts-demo
         image: argoproj/rollouts-demo:blue

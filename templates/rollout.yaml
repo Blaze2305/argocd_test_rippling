@@ -12,7 +12,7 @@ spec:
       - setWeight: 20
       - pause: {duration: 20}
       - setWeight: 80
-      - pause: {duration: 10}
+      - pause: {duration: 3}
   revisionHistoryLimit: 2
   selector:
     matchLabels:

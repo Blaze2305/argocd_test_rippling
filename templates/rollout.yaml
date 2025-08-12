@@ -21,8 +21,8 @@ spec:
     metadata:
       labels:
         app: rollouts-demo
-    restartPolicy: always
     spec:
+      restartPolicy: always
       containers:
       - name: rollouts-demo
         image: argoproj/rollouts-demo:blue

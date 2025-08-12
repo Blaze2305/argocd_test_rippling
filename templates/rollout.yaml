@@ -20,6 +20,7 @@ spec:
     metadata:
       labels:
         app: rollouts-demo
+    restartPolicy: always
     spec:
       containers:
       - name: rollouts-demo

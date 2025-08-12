@@ -6,7 +6,7 @@ spec:
   replicas: 3
   strategy:
     canary:
-      maxSurge: 25%
+      maxSurge: 100%
       steps:
       - setWeight: 20
       - pause: {duration: 20}

@@ -22,7 +22,6 @@ spec:
     metadata:
       labels:
         app: rollouts-demo
-    other_stuff: something
     spec:
       restartPolicy: Always
       containers:

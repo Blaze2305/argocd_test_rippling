@@ -4,7 +4,6 @@ metadata:
   name: rollouts-demo-pdb
 spec:
   minAvailable: 75%
-  maxUnavailable: 80%
   selector:
     matchLabels:
       app: rollouts-demo
